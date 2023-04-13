@@ -8,6 +8,75 @@
     <title>musica 1.0</title>
     <link rel="stylesheet" href="estilo/sty10.css">
 </head>
+<style>
+   * { margin: 0; padding: 0; }
+ .slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #fcf9f9;
+    bottom: 10px;
+    cursor: pointer; 
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+    
+}
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+.slider li:nth-child(5) label {
+    left: 130px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+</style>
 <body>
     <nav>
         <a>Home</a>
@@ -60,27 +129,63 @@
 <main>
      <div class="espa">
      </div>
-     <div class="row">
-        <div class="dd">
-            <h3>Cursos Disponíveis</h3>
-            <h2>Violão</h2>
-            <h2>Ukulele</h2>
-            <h2>Teclado</h2>
-            <h2>Cavaquinho</h2>
-            <h2>Contrabaixo</h2>
-            <h2>Violino</h2>
-        </div>
-     </div> 
+     <div class="conta5">
+        <div class="row">
+            <div class="col-10">
+                <h3>Cursos Disponíveis</p></h3>
+                <h2>Violão</h2>
+                <h2>Ukulele</h2>
+                <h2>Teclado</h2>
+                <h2>Cavaquinho</h2>
+                <h2>Contrabaixo</h2>
+                <h2>Violino</h2>
+                
+            </div>
+            <div class="col-11" >
+                <ul class="slider">
+                    <li>
+                          <input type="radio" id="slide1" name="slide" checked>
+                          <label for="slide1"></label>
+                          <img src="fotoa/aluno2.jpg" />
+                    </li>
+                    <li>
+                          <input type="radio" id="slide2" name="slide">
+                          <label for="slide2"></label>
+                          <img src="fotoa/aluno4.jpg" />
+                    </li>
+                    <li>
+                          <input type="radio" id="slide3" name="slide">
+                          <label for="slide3"></label>
+                          <img src="fotoa/aluno5.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide4" name="slide">
+                        <label for="slide4"></label>
+                        <img src="fotoa/aluno3.jpg" />
+                        <li>
+                            <input type="radio" id="slide5" name="slide">
+                            <label for="slide5"></label>
+                            <img src="fotoa/Tiago6.jpg" />
+                      </li>
+                  </li>
+            </div>
+        <div>   <!-- ====row =========== -->
+    </div>
+    
 </main>
 <main>
-      
+     <div class="espa2">
+    </div>  
    <div class="conta1">
         <div class="row">
             <div class="col-8" >
 
             </div> 
-            <div class="col-7" >
-                <h1>DÚVIDAS</h1> 
+            <div class="col-9" >
+                <h1>DÚVIDAS - click</h1> 
+                
+                <!-- <h1 style="color:white;padding:30px;">Hostinger Tutorials</h1> -->
+
                 <button type="button" onclick="Evento()"><h5>Precisa ter o instrumento para começar?</h5></button>
                 <script>
                     function Evento(){
@@ -130,12 +235,13 @@
         <div class="row">
             <div class="col-5">
                 <h1>Meu Contato</h1>
-                <a href= "https://wa.me/5547988045330" target="_blank"> <img src="imagens/what.png"></a> 
+                <a href= "https://wa.me/5547988045330" target="_blank"><img src="imagens/what.png"></a> 
             </div>
             <div class="col-5" >
                 <h1>Minha localização</h1>
                 <h2>Rua Rodolfo Shoene 105 - Bohemerwaldt - SC</h2>
-                <img src="imagens/ende.jpg"> 
+                <a href="https://goo.gl/maps/M3goMb9BybUFVMLo6" target="_blank"><img src="imagens/ende.jpg"></a> 
+
             </div>
         <div>   <!-- ====row =========== -->
     </div>
