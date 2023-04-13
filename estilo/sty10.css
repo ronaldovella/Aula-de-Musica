@@ -53,12 +53,54 @@ footer h6{
  font-size: 15px;
  
 }
+/* .zz{
+  
+} */
 .zz h1{
   font-size: 30px;
   color: #1b455e;
 
   
 }
+/* .conta5{
+ 
+  /* height: 500px; 
+} */
+
+.conta5 h1{
+color: #1b455e;
+font-size: 30px;
+}
+.conta5 h2{
+color: #1b455e;
+font-size: 25px;
+padding-top: 10px;
+
+}
+.conta5 h3{
+  padding-top: 20px;
+  color: #f8fbfd;
+font-size: 30px;
+}
+.col-10{
+  padding-top: 10px;
+  width: 450px;
+  height: 420px;
+  background-color: cadetblue;
+  
+ }
+ .col-11{
+  width: 410px;
+  height: 425px;
+  
+    
+ }
+
+
+/* .conta{
+ 
+  /* height: 500px; 
+} */
 .conta h1{
 color: #1b455e;
 font-size: 30px;
@@ -70,6 +112,8 @@ font-size: 20px;
 .conta1 h1{
   color: #1b455e;
   font-size: 30px;
+  padding-bottom: 30px;
+  
   }
  .conta1  h5{
   background-color: #1b455e;
@@ -106,6 +150,13 @@ main h2{
   .espa1{
     height: 30px;
   }
+  .espahora{
+    height: 80px;
+    padding-top: 100px;
+  }
+  .espa2{
+    height: 50px;
+  }
     .dd{
     background-color: rgb(46, 66, 104);
     padding-top: 20px;
@@ -127,6 +178,13 @@ main h2{
     width: 45%;
     padding-left: auto;
    }
+   
+
+   /* .col-9{
+
+    /* width: 60%;
+    padding-left: 18%; 
+   } */
     .hidden-sm {
       display: none;
     }
@@ -167,6 +225,11 @@ main h2{
 
 @media only screen and (min-width: 45em) { 
   .col-4 {
+    width: 29.33%;
+  }
+}
+  @media only screen and (min-width: 45em) { 
+  .col-7 {
     width: 29.33%;
   }
   .hidden-sm {
